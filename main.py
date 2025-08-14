@@ -19,7 +19,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# --- Endpoints de Cadastro ---
+# --- Endpoints de Cadastro --- 
 
 @app.post("/profissionais", summary="Cadastra um novo profissional", tags=["Cadastros"])
 def criar_profissional(profissional: ProfissionalCreate):

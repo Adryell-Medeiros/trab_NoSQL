@@ -1,5 +1,6 @@
 # requirements.txt
 fastapi
-uvicorn
+uvicorn[standard]
 pymongo
 python-dotenv
+certifi

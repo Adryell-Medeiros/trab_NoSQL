@@ -1,2 +1,15 @@
-## **Sistema de Gerenciamento de Agenda para Clínica de Estética**
-Este projeto é um sistema de gerenciamento de agendamentos para uma clínica de estética, desenvolvido em Python e utilizando o banco de dados NoSQL MongoDB. O objetivo principal é otimizar a organização da agenda e centralizar as informações de forma eficiente. A plataforma permite que clientes consultem seus futuros atendimentos e que os profissionais da clínica acessem suas agendas de trabalho de maneira simples e rápida.
+# API de Gerenciamento de Agenda para Clínica de Estética
+
+Este projeto é uma API desenvolvida com **FastAPI** e **MongoDB** para gerenciar agendamentos em uma clínica de estética.
+
+## Funcionalidades
+- Cadastro de Profissionais
+- Cadastro de Clientes
+- Criação de Agendamentos
+
+## Tecnologias
+- FastAPI
+- MongoDB & Pymongo
+- Uvicorn
+- Pydantic
+- python-dotenv
